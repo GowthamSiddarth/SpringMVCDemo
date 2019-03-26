@@ -1,13 +1,13 @@
 package com.gowtham.springmvcdemo.model;
 
 public class User {
-    private String username;
+    private String userName;
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 }
