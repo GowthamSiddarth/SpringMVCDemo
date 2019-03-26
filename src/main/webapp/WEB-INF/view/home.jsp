@@ -11,8 +11,7 @@
 		<title>Welcome</title>
 	</head>
 	<body>
-		<h1>
-		    Home Page
-		</h1>
+		<h1>Welcome</h1>
+		<p>The time on server is ${serverTime}.</p>
 	</body>
 </html>
