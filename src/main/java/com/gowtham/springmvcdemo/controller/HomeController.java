@@ -15,7 +15,7 @@ import java.util.Locale;
 public class HomeController {
     private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
     public String home(Locale locale, Model model) {
         logger.info("Welcome Home! The client locale is {}.", locale);
 
@@ -25,6 +25,6 @@ public class HomeController {
         String formattedDate = dateFormat.format(date);
         model.addAttribute("serverTime", formattedDate);
 
-        return "index";
+        return "home";
     }
 }
