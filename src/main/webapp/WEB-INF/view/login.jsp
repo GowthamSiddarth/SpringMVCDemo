@@ -11,9 +11,9 @@
         <title>Login Page</title>
     </head>
     <body>
-        <form action="home" method="post">
-        <input type="text" name="userName"><br><br>
-        <input type="submit" value="Login">
+        <form action="user" method="post">
+            <input type="text" name="userName"><br><br>
+            <input type="submit" value="Login">
         </form>
     </body>
 </html>
