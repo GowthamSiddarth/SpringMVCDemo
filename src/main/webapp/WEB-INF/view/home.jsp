@@ -12,6 +12,8 @@
 	</head>
 	<body>
 		<h1>Welcome</h1>
+		<c:url value="/login.html" var="loginUrl" />
+        <a href="${loginUrl}">Click to Login</a>
 		<p>The time on server is ${serverTime}.</p>
 	</body>
 </html>
